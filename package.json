@@ -1,0 +1,42 @@
+{
+  "name": "brain-quack",
+  "version": "1.0.0",
+  "description": "An esoteric programming language",
+  "main": "./dist/brain-quack.js",
+  "scripts": {
+    "build": "grunt",
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidi7777/brain-quack.git"
+  },
+  "keywords": [
+    "brain",
+    "fuck",
+    "esoteric",
+    "interpreter"
+  ],
+  "author": "abidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abidi7777/brain-quack/issues"
+  },
+  "homepage": "https://github.com/abidi7777/brain-quack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@hapi/code": "^9.0.1",
+    "@hapi/eslint-plugin": "^6.0.0",
+    "@hapi/lab": "^25.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "grunt": "^1.5.3",
+    "grunt-babel": "^8.0.0",
+    "grunt-browserify": "^6.0.0",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-uglify": "^5.2.1"
+  }
+}
